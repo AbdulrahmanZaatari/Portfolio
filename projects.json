@@ -1,0 +1,79 @@
+[
+    {
+        "id": "arz_pharmacy",
+        "title": "ARZ Pharmacy",
+        "description": "This is a pharmacy management system aimed at digitizing pharmacy operations, allowing patients to manage electronic health records, order medications, and seek pharmacist approvals through a secure online platform. Pharmacists can oversee inventory, review patient requests, and interact with customers via a public Q&A board. The system enforces role-based access control (RBAC) to secure data. Future plans include telemedicine integration, AI-driven recommendations, and mobile app development. Technologies Used: PHP (backend), MySQL (database), HTML/CSS/JavaScript (frontend), SSL/TLS (security), Google Translate API (language support).",
+        "images": ["img/ARZP.png", "img/ARZP2.png", "img/ARZP3.png", "img/ARZP4.png", "img/ARZP5.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/ARZ-pharmacy",
+        "documentation": "Documentation/ARZP.pdf"
+    },
+    {
+        "id": "melanoma",
+        "title": "Melanoma Detection",
+        "description": "This project develops a deep learning-based melanoma skin cancer detection system using Convolutional Neural Networks (CNNs) and Transfer Learning with ResNet18. The dataset consists of 10,000 skin lesion images classified as malignant or benign. Data preprocessing includes standardization, augmentation, and validation split for robust training. The model is trained using Binary Crossentropy loss and the Adam optimizer, with hyperparameter tuning for optimal performance. Evaluation metrics highlight significant improvements with ResNet18, achieving a test accuracy of 92%, recall of 0.89 (malignant), and 0.96 (benign). The project is deployed using Render & AWS and the frontend was developed using React whereas the models were developed using pyTorch.",
+        "images": ["img/Melanoma.png", "img/Melanoma2.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/Melanoma-Prediction-Webapp",
+        "documentation": "Documentation/DL.pdf"
+    },
+    {
+        "id": "proxy_server",
+        "title": "Networks Project - Proxy Server Application",
+        "description": "This project is a Proxy Server Application designed to mediate HTTP and HTTPS traffic with functionalities such as request filtering, caching, real-time connection monitoring, and access control (whitelist/blacklist). The server ensures efficient request forwarding while enhancing security and performance. A Flask-based web admin interface allows administrators to manage logs, cache, and connection settings. Technologies Used: Python (socket, threading, sqlite3, ssl, logging), Flask (for admin interface), SQLite (database), VS Code (development environment).",
+        "images": ["img/Proxy.png", "img/Proxy2.png", "img/Proxy3.png", "img/Proxy4.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/Proxy-Server-App",
+        "documentation": "Documentation/NW.pdf"
+    },
+    {
+        "id": "jump_quest_game",
+        "title": "Jump Quest Game",
+        "description": "An interactive game developed to engage users in a fun and challenging experience. It showcases creativity and programming skills.",
+        "images": ["img/JQ.png", "img/JQ2.png", "img/JQ3.png", "img/JQ4.png", "img/JQ5.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/Jump-Quest-Godot-Game",
+        "itch_io": "https://ar1298.itch.io/jump-quest"
+    },
+    {
+        "id": "Share|K",
+        "title": "Share|K platform",
+        "description": "This is a knowledge-sharing platform designed to facilitate the exchange of information and expertise through text-based posts. Users can create, share, and interact with educational content, while forums enable discussions and Q&A. The system includes role-based access control (RBAC) to ensure secure interactions and data protection. A Leaderboard system was implemented to see the most active users. I have worked and developed the brand and logo of the website myself! Technologies Used: echnologies Used: PHP (backend), MySQL (database), HTML/CSS/JavaScript (frontend), SSL/TLS (security), Google Translate API (language support).",
+        "images": ["img/SH.png", "img/SH2.png", "img/SH3.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/Sharek-Knowledge-Sharing-System"
+    },
+    {
+        "id": "RAG",
+        "title": "Gemini RAG App",
+        "description": "This project is a Streamlit-based Retrieval-Augmented Generation (RAG) application that allows users to upload documents (PDF, TXT, CSV) and interact with an AI assistant powered by Google's Gemini API. The app processes documents using LangChain’s text-splitting and embedding techniques, stores them in a Chroma vector database, and retrieves relevant context for AI-powered responses. It features conversation management, customizable AI settings (model type, temperature, retrieval depth), and export options (TXT, JSON, CSV). Logging, error handling, and session persistence ensure a seamless user experience. The application provides an interactive and efficient way to extract insights from uploaded documents.",
+        "images": ["img/RAG.png", "img/RAG2.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/Gemini-RAG-chatbot",
+        "documentation": "Documentation/HB.pdf"
+    },
+    {
+        "id": "Honest_bank",
+        "title": "The Honest Bank Database System",
+        "description": "A comprehensive database system for a fictional bank, designed to provide traditional banking services alongside innovative cryptocurrency functionalities. The project emphasizes integrity, transparency, and customer-centric solutions, addressing challenges like economic instability and corruption. Key features include a robust ER diagram with 17 entities (e.g., Customer, Account, Transaction, CryptoWallet) and 20 relationships, advanced SQL queries (40+ scenarios), cryptocurrency integration, and dynamic functionalities like stored procedures and triggers. Security measures, such as attribute renaming to prevent SQL injection, ensure data protection. Future enhancements include real-world data integration and expanded crypto services.",
+        "images": ["img/HB.png", "img/Proxy2.png", "img/Proxy3.png", "img/Proxy4.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/The-Honest-Bank-Database-Project",
+        "documentation": "Documentation/HB.pdf"
+    },
+    {
+        "id": "Tableau",
+        "title": "Investors' Tool & Dashboard",
+        "description": "This project leverages Tableau to analyze and visualize Forbes' top companies data, assisting investors, analysts, and policymakers in making informed decisions. The interactive dashboard provides insights into revenue, profits, market value, and industry trends by integrating and standardizing multiple datasets. It merges five datasets, aligning columns, standardizing financial units, and resolving discrepancies. Missing values, particularly ~6,000 in the 'Industry' column, were addressed using inference, replication, and manual research, while continent data was added for enhanced geographic analysis. The tool features multiple interactive dashboards: the first highlights top and low-performing countries based on revenue, profit, and market value, the second compares industries within a selected country, the third tracks industry growth trends over time, the fourth ranks companies by financial performance, and the fifth analyzes the financial evolution of selected companies. With Tableau-powered interactive charts and maps, users can filter, compare, and track financial performance, enabling data-driven investment decisions by identifying trends, growth, and financial stability. This tool transforms raw financial data into actionable insights, helping users explore industry patterns, compare companies, and make strategic investment choices.",
+        "images": [
+            "img/TB2.png",
+            "img/TB.png",
+            "img/TB3.png",
+            "img/TB4.png",
+            "img/TB5.png"
+        ],
+        "github": "https://github.com/AbdulrahmanZaatari/Financial-Tool-Tableau",
+        "documentation": "Documentation/InvestorsTool.pdf"
+    },
+    {
+        "id": "HiKings-Queens",
+        "title": "HiKings&Queens",
+        "description": "HiKings & Queens is a digital platform designed using figma for nature lovers and adventure seekers, offering an engaging community experience centered around hiking and outdoor exploration. Users can register, explore destinations, access hiking guides, and discover services like accommodations, food, and activities. ",
+        "images": ["img/HK.png", "img/HK2.png", "img/HK3.png", "img/HK4.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/HiKings-and-Queens",
+        "design": "https://www.figma.com/design/MR0EmqPUH7mQfPMWCvIJhK/HiKings-%26-Queens?node-id=0-1&p=f&t=0yH3gHSyacN5shPX-0"
+    }
+]
