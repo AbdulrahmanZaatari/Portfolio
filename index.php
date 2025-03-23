@@ -68,7 +68,6 @@ $projects = json_decode(file_get_contents('projects.json'), true);
                         <h3>Blockchain & Games</h3>
                         <p>Experience with Hive Blockchain and Solidity for decentralized applications. Developed games in Godot using GDScript, focusing on mechanics and user experience.</p>
                     </div>
-                </div>
             </div>
         </section>
         

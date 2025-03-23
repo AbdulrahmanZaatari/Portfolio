@@ -1,8 +1,5 @@
 <?php
-// Load the projects data from the JSON file
 $projects = json_decode(file_get_contents('projects.json'), true);
-
-// Get the project ID from the URL query parameter
 $projectId = $_GET['project'] ?? null;
 
 // If no project ID is provided or the project ID doesn't exist, redirect to the homepage

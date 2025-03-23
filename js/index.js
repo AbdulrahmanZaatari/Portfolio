@@ -81,3 +81,41 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(styleElement);
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Intersection Observer for fade-in sections
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        section.classList.add('section-fade-in');
+    });
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                
+                // Animate skill bars when skills section is visible
+                if (entry.target.id === 'skills') {
+                    animateSkillBars();
+                }
+            }
+        });
+    }, { threshold: 0.2 });
+    
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+    
+    // Animate skill progress bars
+    function animateSkillBars() {
+        const progressBars = document.querySelectorAll('.progress-bar__fill');
+        progressBars.forEach(bar => {
+            const width = bar.getAttribute('data-width');
+            setTimeout(() => {
+                bar.style.width = width + '%';
+            }, 200);
+        });
+    }
+});
+
