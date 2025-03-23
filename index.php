@@ -98,12 +98,14 @@ $projects = json_decode(file_get_contents('projects.json'), true);
                 <?php foreach ($projects as $project): ?>
                     <a href="project.php?project=<?php echo $project['id']; ?>" class="portfolio__item">
                         <img src="<?php echo htmlspecialchars($project['images'][0]); ?>" alt="<?php echo htmlspecialchars($project['title']); ?>" class="portfolio__img">
+                        <div class="portfolio__title">
+                            <h3><?php echo htmlspecialchars($project['title']); ?></h3>
+                            <p class="portfolio__tech"><?php echo htmlspecialchars($project['short_description'] ?? ''); ?></p>
+                        </div>
                     </a>
                 <?php endforeach; ?>
             </div>
         </section>
-
-
         <!-- Project Details Container -->
         <div id="project-details-container"></div>
 

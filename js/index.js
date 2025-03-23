@@ -34,3 +34,50 @@ document.addEventListener("DOMContentLoaded", function () {
 
     showSlide(currentSlide);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize portfolio items
+    initPortfolio();
+    
+    // Function to add interaction to portfolio items
+    function initPortfolio() {
+        const portfolioItems = document.querySelectorAll('.portfolio__item');
+        
+        portfolioItems.forEach(item => {
+            // Add subtle animation when mouse enters
+            item.addEventListener('mouseenter', function() {
+                this.classList.add('portfolio__item--active');
+            });
+            
+            // Remove animation when mouse leaves
+            item.addEventListener('mouseleave', function() {
+                this.classList.remove('portfolio__item--active');
+            });
+            
+            // Add click effect
+            item.addEventListener('click', function() {
+                // Add a brief highlight effect before navigating
+                this.classList.add('portfolio__item--clicked');
+                
+                // Small delay to show the effect before navigation
+                setTimeout(() => {
+                    // Navigation happens naturally from the <a> tag
+                }, 200);
+            });
+        });
+    }
+    
+    // Add additional CSS classes dynamically
+    const styleElement = document.createElement('style');
+    styleElement.textContent = `
+        .portfolio__item--active {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        
+        .portfolio__item--clicked {
+            transform: scale(0.98);
+            transition: transform 0.2s ease;
+        }
+    `;
+    document.head.appendChild(styleElement);
+});
