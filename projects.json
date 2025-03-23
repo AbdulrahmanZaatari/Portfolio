@@ -17,7 +17,7 @@
     },
     {
         "id": "proxy_server",
-        "title": "Networks Project - Proxy Server Application",
+        "title": "Proxy Server Application",
         "description": "This project is a Proxy Server Application designed to mediate HTTP and HTTPS traffic with functionalities such as request filtering, caching, real-time connection monitoring, and access control (whitelist/blacklist). The server ensures efficient request forwarding while enhancing security and performance. A Flask-based web admin interface allows administrators to manage logs, cache, and connection settings. Technologies Used: Python (socket, threading, sqlite3, ssl, logging), Flask (for admin interface), SQLite (database), VS Code (development environment).",
         "images": ["img/Proxy.png", "img/Proxy2.png", "img/Proxy3.png", "img/Proxy4.png"],
         "github": "https://github.com/AbdulrahmanZaatari/Proxy-Server-App",
@@ -26,7 +26,7 @@
     {
         "id": "jump_quest_game",
         "title": "Jump Quest Game",
-        "description": "An interactive game developed to engage users in a fun and challenging experience. It showcases creativity and programming skills.",
+        "description": "A creative 2d platformer developed using the Godot engine. Opposite to usual 2d platformers such as mario, the main character cannot jump! The game design is really challenging and the game will get you raging very quickly all while still having a lot of fun! Try playing it and give all the levels a chance to get a taste of flippy's adventure :) ",
         "images": ["img/JQ.png", "img/JQ2.png", "img/JQ3.png", "img/JQ4.png", "img/JQ5.png"],
         "github": "https://github.com/AbdulrahmanZaatari/Jump-Quest-Godot-Game",
         "itch_io": "https://ar1298.itch.io/jump-quest"
