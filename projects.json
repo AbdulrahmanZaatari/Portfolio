@@ -69,6 +69,13 @@
         "documentation": "Documentation/InvestorsTool.pdf"
     },
     {
+        "id": "Chef",
+        "title": "Chef Claude",
+        "description": "Chef Claude is a web application that generates recipes based on user-provided ingredients. It features both Mistral AI and Claude AI endpoints for recipe generation, utilizing the Hugging Face Inference API and Anthropic API respectively. The frontend is built with React.js, while the backend leverages Node.js and Express.js. Environment variables are managed with dotenv, and cors is used for handling cross-origin requests.",
+        "images": ["img/Claude.png", "img/Claude2.png", "img/Claude3.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/Chef_Claude"
+    },
+    {
         "id": "HiKings-Queens",
         "title": "HiKings&Queens",
         "description": "HiKings & Queens is a digital platform designed using figma for nature lovers and adventure seekers, offering an engaging community experience centered around hiking and outdoor exploration. Users can register, explore destinations, access hiking guides, and discover services like accommodations, food, and activities. ",

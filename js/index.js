@@ -66,8 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-    
-    // Add additional CSS classes dynamically
     const styleElement = document.createElement('style');
     styleElement.textContent = `
         .portfolio__item--active {
