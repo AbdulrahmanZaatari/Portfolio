@@ -1,5 +1,12 @@
 [
     {
+        "id": "soufra_share",
+        "title": "Soufra Share",
+        "description": "Soufra Share is a mobile app that empowers home-based cooks and small food businesses to sell their homemade meals to a wider community. The platform allows anyone to sign up as a cook, list meals with prices and descriptions, and manage their orders and sales through personalized dashboards. Customers can browse nearby dishes, filter by cuisine, add items to a cart, place orders, and leave reviews. Sellers gain access to sales reports and data insights to grow their offerings. The app prioritizes security with prepared statements, session handling, and CORS protection. Technologies Used: Java (Android), PHP (backend), MySQL (database), SharedPreferences (session management), Picasso (Image management).",
+        "images": ["img/logo.jpg", "img/SF1.png", "img/SF2.png", "img/SF3.png", "img/SF4.png"],
+        "github": "https://github.com/AbdulrahmanZaatari/Soufra-Share"
+    },
+    {
         "id": "arz_pharmacy",
         "title": "ARZ Pharmacy",
         "description": "This is a pharmacy management system aimed at digitizing pharmacy operations, allowing patients to manage electronic health records, order medications, and seek pharmacist approvals through a secure online platform. Pharmacists can oversee inventory, review patient requests, and interact with customers via a public Q&A board. The system enforces role-based access control (RBAC) to secure data. Future plans include telemedicine integration, AI-driven recommendations, and mobile app development. Technologies Used: PHP (backend), MySQL (database), HTML/CSS/JavaScript (frontend), SSL/TLS (security), Google Translate API (language support).",
